@@ -19,6 +19,11 @@ export const metadata: Metadata = {
     "grades 9-12",
     "future-ready education",
   ],
+  icons: {
+    icon: "/symbio-logo.jpg",
+    shortcut: "/symbio-logo.jpg",
+    apple: "/symbio-logo.jpg",
+  },
 };
 
 export default function RootLayout({

@@ -50,8 +50,11 @@ export default function Hero() {
           <span className="text-xs font-medium text-slate-300 tracking-wide uppercase">Enrolling for 2026 — Grades 9–12</span>
         </div>
 
-        <div className="mx-auto mb-8 w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden ring-2 ring-cyan-500/30 shadow-[0_0_30px_rgba(34,211,238,0.2)] animate-scale-in">
-          <img src="/symbio-logo.jpg" alt="Symbio AI Academy Logo" className="w-full h-full object-cover" />
+        <div className="mx-auto mb-10 w-40 h-40 sm:w-56 sm:h-56 relative animate-scale-in">
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-cyan-500/30 to-emerald-400/30 blur-2xl" />
+          <div className="relative w-full h-full rounded-full overflow-hidden ring-1 ring-cyan-500/30 shadow-[0_0_40px_rgba(34,211,238,0.25)]">
+            <img src="/symbio-logo.jpg" alt="Symbio AI Academy Logo" className="w-full h-full object-cover" />
+          </div>
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
