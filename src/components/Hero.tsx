@@ -1,7 +1,5 @@
 "use client";
 
-import { useI18n } from "@/i18n/context";
-
 const pillars = [
   {
     id: "ai-mastery",
@@ -38,8 +36,6 @@ const pillars = [
 ];
 
 export default function Hero() {
-  const { t } = useI18n();
-
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -51,7 +47,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-6 animate-fade-in-up">
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-          <span className="text-xs font-medium text-slate-300 tracking-wide uppercase">{t("home.tagline")}</span>
+          <span className="text-xs font-medium text-slate-300 tracking-wide uppercase">Enrolling for 2026 — Grades 9–12</span>
         </div>
 
         <div className="mx-auto mb-8 w-40 h-40 sm:w-56 sm:h-56 relative animate-scale-in">
@@ -62,16 +58,16 @@ export default function Hero() {
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-4 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-          {t("home.heroTitle")}{" "}
+          Symbio{" "}
           <span className="glow-text">AI Academy</span>
         </h1>
 
         <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto mb-3 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-          {t("home.heroSubtitle")}
+          The Future of Autonomous, AI-Driven Secondary Education (Grades 9–12)
         </p>
 
         <p className="text-base text-slate-400 max-w-2xl mx-auto mb-8 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-          {t("home.heroDescription")}
+          Experience 24/7 multimodal AI instruction, project-based learning where students spend over 60% of their time building real AI systems, rigorous ethical oversight, and a curriculum engineered for the world ahead.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
@@ -79,7 +75,7 @@ export default function Hero() {
             href="/curriculum"
             className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500 to-emerald-400 text-slate-950 font-semibold hover:shadow-[0_0_30px_rgba(34,211,238,0.4)] transition-all duration-300"
           >
-            {t("home.ctaExplore")}
+            Explore Curriculum
             <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
             </svg>
@@ -88,7 +84,7 @@ export default function Hero() {
             href="#admissions"
             className="inline-flex items-center justify-center px-8 py-4 rounded-full glass hover:bg-white/10 transition-all duration-300"
           >
-            {t("home.ctaApply")}
+            Start Application
           </a>
         </div>
 
