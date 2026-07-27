@@ -4,6 +4,9 @@ import React, { useState } from "react";
 import { pillars, gradesData, pillarMeta, levelStyles, type PillarId, type GradeLevel } from "@/data/curriculum";
 import { PillarIcons } from "@/components/icons";
 import { useI18n } from "@/i18n/context";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import WhatsAppWidget from "@/components/WhatsAppWidget";
 
 const pillarColorMap: Record<PillarId, { from: string; to: string; border: string; text: string; bg: string; light: string }> = {
   "ai-mastery": { from: "from-cyan-500", to: "to-emerald-400", border: "border-cyan-500/30", text: "text-cyan-400", bg: "bg-cyan-500/10", light: "bg-cyan-500/5" },
@@ -35,6 +38,7 @@ export default function CurriculumPage() {
 
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
+      <Navigation />
       <section className="relative pt-32 pb-16 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-0 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px]" />
@@ -234,6 +238,8 @@ export default function CurriculumPage() {
           </div>
         </div>
       </section>
+      <Footer />
+      <WhatsAppWidget />
     </main>
   );
 }
