@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 const navLinks = [
   { name: "Home", href: "#home" },
-  { name: "Curriculum", href: "#curriculum" },
+  { name: "Curriculum", href: "/curriculum" },
   { name: "Admissions", href: "#admissions" },
   { name: "Contact", href: "#contact" },
 ];

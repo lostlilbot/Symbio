@@ -72,7 +72,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
           <a
-            href="#curriculum"
+            href="/curriculum"
             className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500 to-emerald-400 text-slate-950 font-semibold hover:shadow-[0_0_30px_rgba(34,211,238,0.4)] transition-all duration-300"
           >
             Explore Curriculum
