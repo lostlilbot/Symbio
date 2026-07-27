@@ -14,6 +14,7 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] ESLint configuration
 - [x] Memory bank documentation
 - [x] Recipe system for common features
+- [x] Fix Next.js version for OpenNext compatibility (^16.2.6)
 
 ## Current Structure
 
@@ -84,4 +85,5 @@ export async function GET() {
 
 | Date | Changes |
 |------|---------|
+| 2026-07-27 | Bumped Next.js from ^16.1.3 to ^16.2.6 to fix OpenNext deployment error |
 | Initial | Template created with base setup |
