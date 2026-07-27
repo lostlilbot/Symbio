@@ -95,7 +95,7 @@ export default function EnrollmentForm() {
   const inputClass = "w-full rounded-xl bg-slate-900/80 border border-slate-700 px-4 py-3 text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-cyan-500/50 transition-all duration-300";
 
   return (
-    <section id="admissions" className="py-24 relative">
+    <section id="admissions" className="py-16 relative">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 tracking-tight">

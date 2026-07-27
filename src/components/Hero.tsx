@@ -45,32 +45,32 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8 animate-fade-in-up">
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-6 animate-fade-in-up">
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
           <span className="text-xs font-medium text-slate-300 tracking-wide uppercase">Enrolling for 2026 — Grades 9–12</span>
         </div>
 
-        <div className="mx-auto mb-10 w-40 h-40 sm:w-56 sm:h-56 relative animate-scale-in">
+        <div className="mx-auto mb-8 w-40 h-40 sm:w-56 sm:h-56 relative animate-scale-in">
           <div className="absolute inset-0 rounded-full bg-gradient-to-br from-cyan-500/30 to-emerald-400/30 blur-2xl" />
-          <div className="relative w-full h-full rounded-full overflow-hidden ring-1 ring-cyan-500/30 shadow-[0_0_40px_rgba(34,211,238,0.25)]">
+          <div className="relative w-full h-full rounded-full overflow-hidden ring-[0.5px] ring-white/40 shadow-[0_0_30px_rgba(34,211,238,0.2)]">
             <img src="/symbio-logo.jpg" alt="Symbio AI Academy Logo" className="w-full h-full object-cover" />
           </div>
         </div>
 
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-4 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
           Symbio{" "}
           <span className="glow-text">AI Academy</span>
         </h1>
 
-        <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto mb-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+        <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto mb-3 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
           The Future of Autonomous, AI-Driven Secondary Education (Grades 9–12)
         </p>
 
-        <p className="text-base text-slate-400 max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
+        <p className="text-base text-slate-400 max-w-2xl mx-auto mb-8 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
           Experience 24/7 multimodal AI instruction, project-based learning where students spend over 60% of their time building real AI systems, rigorous ethical oversight, and a curriculum engineered for the world ahead.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
           <a
             href="#curriculum"
             className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500 to-emerald-400 text-slate-950 font-semibold hover:shadow-[0_0_30px_rgba(34,211,238,0.4)] transition-all duration-300"
@@ -89,7 +89,7 @@ export default function Hero() {
         </div>
 
         <div className="animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
-          <p className="text-xs font-medium text-slate-400 uppercase tracking-wider mb-6">The Four Pillars</p>
+          <p className="text-xs font-medium text-slate-400 uppercase tracking-wider mb-4">The Four Pillars</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {pillars.map((pillar, idx) => (
               <div

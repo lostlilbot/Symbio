@@ -738,7 +738,7 @@ export default function CurriculumExplorer() {
   const courses = currentData.courses.filter((c) => selectedPillar === "all" || c.pillar === selectedPillar);
 
   return (
-    <section id="curriculum" className="py-24 relative">
+    <section id="curriculum" className="py-16 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 tracking-tight">

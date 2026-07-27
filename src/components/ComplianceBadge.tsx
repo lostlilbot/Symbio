@@ -1,6 +1,6 @@
 export default function ComplianceBadge() {
   return (
-    <section id="contact" className="py-16 relative">
+    <section id="contact" className="py-12 relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="glass rounded-3xl p-8 sm:p-12 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-72 h-72 bg-cyan-500/10 rounded-full blur-[100px] pointer-events-none" />
