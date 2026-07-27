@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { pillars, gradesData, pillarMeta, levelStyles, type PillarId, type GradeLevel } from "@/data/curriculum";
 import { PillarIcons } from "@/components/icons";
+import { useI18n } from "@/i18n/context";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import WhatsAppWidget from "@/components/WhatsAppWidget";
@@ -22,6 +23,7 @@ const gradeThemes: Record<GradeLevel, string> = {
 };
 
 export default function CurriculumPage() {
+  const { t } = useI18n();
   const [activePillar, setActivePillar] = useState<PillarId>("ai-mastery");
   const [expandedCourse, setExpandedCourse] = useState<string | null>(null);
 
@@ -29,7 +31,7 @@ export default function CurriculumPage() {
   const activeCourses = gradesData
     .map((g) => ({
       grade: g.grade,
-      theme: g.theme,
+      theme: t(`curriculum.gradeTheme.${g.grade}`),
       courses: g.courses.filter((c) => c.pillar === activePillar),
     }))
     .filter((g) => g.courses.length > 0);
@@ -45,12 +47,12 @@ export default function CurriculumPage() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-xs font-medium text-slate-400 uppercase tracking-wider mb-4">Full Curriculum</p>
+            <p className="text-xs font-medium text-slate-400 uppercase tracking-wider mb-4">{t("curriculum.fullCurriculum")}</p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-4">
-              The Four <span className="glow-text">Pillars</span>
+              {t("curriculum.pageTitle")}
             </h1>
             <p className="text-lg text-slate-400 max-w-3xl mx-auto">
-              A deep dive into every subject across Grades 9–12. Each pillar is engineered to develop a critical dimension of future-ready intelligence.
+              {t("curriculum.pageSubtitle")}
             </p>
           </div>
 
@@ -117,7 +119,7 @@ export default function CurriculumPage() {
               {activePillarData.name}
             </h2>
             <p className="text-slate-400 max-w-2xl">
-              {activePillarData.description}. Below is every subject in this pillar, organized by grade level, with full lab specifications and learning outcomes.
+              {activePillarData.description}. {t("curriculum.pageSubtitle")}
             </p>
           </div>
 
@@ -163,9 +165,9 @@ export default function CurriculumPage() {
                                   Grade {group.grade}
                                 </span>
                               </div>
-                              <h3 className="text-lg font-semibold text-white mb-2 leading-snug">{course.title}</h3>
-                              <p className="text-xs text-red-400 font-medium mb-2">Click for details</p>
-                              <p className="text-sm text-slate-400 leading-relaxed">{course.description}</p>
+                              <h3 className="text-lg font-semibold text-white mb-2 leading-snug">{t(`curriculum.courses.${course.id}.title`)}</h3>
+                              <p className="text-xs text-red-400 font-medium mb-2">{t("curriculum.clickForDetails")}</p>
+                              <p className="text-sm text-slate-400 leading-relaxed">{t(`curriculum.courses.${course.id}.description`)}</p>
                             </div>
                             <svg
                               className={`w-5 h-5 text-slate-500 shrink-0 mt-1 transition-transform duration-300 ${

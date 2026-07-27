@@ -1,0 +1,338 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "curriculum": "Plan de Estudios",
+    "admissions": "Admisiones",
+    "contact": "Contacto",
+    "chatWithAdmissions": "Chatear con Admisiones"
+  },
+  "home": {
+    "tagline": "Inscripciones abiertas para 2026 — Grados 9 a 12",
+    "heroTitle": "Symbio",
+    "heroSubtitle": "El futuro de la educación secundaria autónoma impulsada por IA (Grados 9–12)",
+    "heroDescription": "Experimenta instrucción multimodal de IA las 24 horas, aprendizaje basado en proyectos donde los estudiantes dedican más del 60% de su tiempo a construir sistemas reales de IA, supervisión ética rigurosa y un plan de estudios diseñado para el mundo que viene.",
+    "ctaExplore": "Explorar Plan de Estudios",
+    "ctaApply": "Iniciar Solicitud",
+    "pillarsTitle": "Los Cuatro Pilares"
+  },
+  "curriculum": {
+    "pageTitle": "Los Cuatro Pilares",
+    "pageSubtitle": "Una inmersión profunda en cada materia a lo largo de los Grados 9–12. Cada pilar está diseñado para desarrollar una dimensión crítica de inteligencia lista para el futuro.",
+    "fullCurriculum": "Plan de Estudios Completo",
+    "clickForDetails": "Clic para más detalles",
+    "labsTitle": "Laboratorios Prácticos",
+    "outcomesTitle": "Resultados de Aprendizaje",
+    "gradeTheme": {
+      "9": "Fundamentos de la Inteligencia",
+      "10": "Inteligencia Intermedia",
+      "11": "Inteligencia Avanzada",
+      "12": "Proyecto Final y Dominio"
+    },
+    "pillars": {
+      "ai-mastery": {
+        "name": "Dominio de la IA y Alfabetización Tecnológica",
+        "description": "Fluidez avanzada en IA, programación y sistemas autónomos",
+        "labs": ["Verificación de Hechos Multi-Persona", "Enjambres de Agentes Autónomos", "Bases de Conocimiento RAG"]
+      },
+      "human-edge": {
+        "name": "Habilidades Humanas",
+        "description": "Pensamiento crítico, creatividad e inteligencia emocional",
+        "labs": ["Desafíos de Innovación Biomimética", "Resolución de Problemas Colaborativa"]
+      },
+      "ethics-leadership": {
+        "name": "Ética, Sociedad y Liderazgo",
+        "description": "Administración responsable de la IA y ciudadanía global",
+        "labs": ["Simulación de Políticas de IA", "Pruebas de Seguridad Ética de IA"]
+      },
+      "interdisciplinary": {
+        "name": "Dominios Interdisciplinarios",
+        "description": "IA aplicada a la ciencia, el arte y los dominios del mundo real",
+        "labs": ["IA en Ciencias Climáticas", "Arte y Música Computacional"]
+      }
+    },
+    "courses": {
+      "g9-prompt": {
+        "title": "Fundamentos de Ingeniería de Prompts",
+        "description": "Domina la comunicación con sistemas de IA mediante prompts estructurados, contextos y patrones few-shot. Los estudiantes experimentan con prompting multimodal (texto, imagen, audio) y aprenden bucles de optimización de prompts."
+      },
+      "g9-logic": {
+        "title": "Lógica y Pensamiento Algorítmico",
+        "description": "Construye pensamiento computacional mediante lógica formal, pseudocódigo, diagramas de flujo y algoritmos básicos. Los estudiantes progresan desde lógica booleana hasta ordenación, búsqueda y recorrido básico de grafos."
+      },
+      "g9-python-ai": {
+        "title": "Introducción a Python para IA",
+        "description": "Programación práctica en Python centrada en estructuras de datos, funciones y bibliotecas esenciales para cargas de trabajo de IA: NumPy, Pandas y Matplotlib."
+      },
+      "g9-data-literacy": {
+        "title": "Alfabetización de Datos y Visualización",
+        "description": "Comprende cómo los datos dan forma a las decisiones en la sociedad. Los estudiantes recopilan, analizan y presentan conjuntos de datos del mundo real, aprendiendo a detectar estadísticas engañosas y contar historias de datos veraces."
+      },
+      "g9-critical-thinking": {
+        "title": "Pensamiento Crítico y Argumentación",
+        "description": "Desarrolla hábitos rigurosos de pensamiento: identificación de suposiciones, evaluación de evidencia y construcción de argumentos sólidos. Cubre falacias lógicas, sesgos cognitivos y formatos de debate estructurado."
+      },
+      "g9-design-thinking": {
+        "title": "Expresión Creativa y Diseño Centrado",
+        "description": "Aplica procesos de diseño centrado en el humano para resolver problemas reales. Los estudiantes crean prototipos usando herramientas digitales, materiales físicos y ciclos iterativos de retroalimentación."
+      },
+      "g9-digital-citizenship": {
+        "title": "Ciudadanía Digital y Seguridad",
+        "description": "Explora derechos, responsabilidades y riesgos en espacios digitales. Temas incluyen privacidad, higiene de ciberseguridad, propiedad intelectual y construcción de hábitos digitales saludables."
+      },
+      "g9-ethics-ai": {
+        "title": "Ética de la Inteligencia Artificial",
+        "description": "Introducción a la filosofía moral aplicada a la IA. Los estudiantes exploran problemas de tranvía, equidad algorítmica y las consecuencias sociales de la toma de decisiones automatizada."
+      },
+      "g9-global-studies": {
+        "title": "Introducción a Estudios Globales",
+        "description": "Comprende la interdependencia global, la diversidad cultural y los Objetivos de Desarrollo Sostenible de las Naciones Unidas como marco para el liderazgo futuro."
+      },
+      "g9-ai-biology": {
+        "title": "IA en Biología y Salud",
+        "description": "Explora cómo la IA revoluciona la biología: plegamiento de proteínas, imágenes médicas, genómica y medicina personalizada. Los estudiantes analizan conjuntos de datos sanitarios reales."
+      },
+      "g9-comp-art": {
+        "title": "Arte y Música Computacional",
+        "description": "Crea arte generativo, música e instalaciones interactivas mediante código. Fusiona creatividad con algoritmos, explorando aleatoriedad, campos de ruido e interacción del usuario."
+      },
+      "g10-multi-agent": {
+        "title": "Sistemas de Orquestación Multi-Agente",
+        "description": "Diseña sistemas inteligentes donde agentes de IA especializados colaboran de forma autónoma. Cubre frameworks de agentes, uso de herramientas, memoria y protocolos de coordinación."
+      },
+      "g10-ml-fundamentals": {
+        "title": "Fundamentos de Machine Learning",
+        "description": "Teoría del aprendizaje estadístico, regresión lineal, clasificación, árboles de decisión y métodos ensemble. Los estudiantes implementan algoritmos desde cero y con Scikit-learn."
+      },
+      "g10-computer-vision": {
+        "title": "Fundamentos de Visión por Computadora",
+        "description": "Procesamiento de imágenes, redes neuronales convolucionales, detección de objetos y segmentación de imágenes. Proyectos prácticos incluyen auditorías de seguridad de reconocimiento facial e imágenes médicas."
+      },
+      "g10-nlp": {
+        "title": "Fundamentos de Procesamiento del Lenguaje Natural",
+        "description": "Preprocesamiento de texto, embeddings, transformadores y análisis de sentimientos. Los estudiantes crean chatbots, clasificadores de texto y prototipos de traducción."
+      },
+      "g10-creative-comm": {
+        "title": "Comunicación Creativa Avanzada",
+        "description": "Eleva la narración, el habla persuasiva y la comunicación multimodal. Los estudiantes crean charlas estilo TED, podcasts y presentaciones interactivas."
+      },
+      "g10-negotiation": {
+        "title": "Negociación y Mediación",
+        "description": "Negociación basada en principios, análisis de BATNA, técnicas de mediación y negociación intercultural. Utilizado en entornos empresariales, diplomáticos y comunitarios."
+      },
+      "g10-eq": {
+        "title": "Inteligencia Emocional e Ingeniería de Empatía",
+        "description": "Autoconciencia, autorregulación, motivación, empatía y habilidades sociales. Ingeniería de empatía en UX de IA estudiando tono de voz, expresión facial y conjuntos de datos de lenguaje corporal."
+      },
+      "g10-ai-ethics": {
+        "title": "Ética de la IA y Auditorías de Sesgo Global",
+        "description": "Curso de ética avanzado centrado en auditar sistemas de IA reales para equidad, transparencia, rendición de cuentas y sesgo entre culturas, géneros y grupos socioeconómicos."
+      },
+      "g10-philosophy-mind": {
+        "title": "Filosofía de la Mente y Conciencia",
+        "description": "¿Qué es la conciencia? ¿Pueden las máquinas pensar realmente? Los estudiantes examinan el funcionalismo, la teoría de la información integrada, los argumentos de la Sala China y las implicaciones éticas de la IA sensible."
+      },
+      "g10-social-impact": {
+        "title": "Impacto Social y Diseño Comunitario",
+        "description": "Diseña soluciones de IA para el bien social mediante diseño centrado en el humano e investigación participativa comunitaria. Los estudiantes colaboran con organizaciones locales."
+      },
+      "g10-biomimetic": {
+        "title": "Diseño Biomimético",
+        "description": "Innovación inspirada en la naturaleza: estudio de sistemas biológicos para resolver desafíos de ingeniería y diseño. Incluye algoritmos evolutivos, inteligencia de enjambre y optimización estructural."
+      },
+      "g10-ai-environment": {
+        "title": "IA en Ciencias Ambientales",
+        "description": "Aplica IA a modelización climática, conservación de la vida silvestre, agricultura de precisión y seguimiento de la contaminación. Los estudiantes trabajan con conjuntos de datos abiertos de NASA y NOAA."
+      },
+      "g10-math-modeling": {
+        "title": "Modelización Matemática con IA",
+        "description": "Usa IA y matemáticas para modelar sistemas complejos: epidemiología, tráfico urbano, mercados económicos y redes ecológicas. Enfatiza ecuaciones diferenciales y simulación Monte Carlo."
+      },
+      "g11-workflow": {
+        "title": "Automatización de Flujos de Trabajo Autónomos",
+        "description": "Diseña, implementa y supervisa flujos de trabajo de IA completamente autónomos que integran APIs, bases de datos y compuertas humanas en el bucle para operaciones complejas."
+      },
+      "g11-deep-learning": {
+        "title": "Deep Learning y Arquitecturas Neuronales",
+        "description": "Fundamentos de PyTorch, backpropagation, arquitecturas CNN, RNN, Transformer y GAN. Los estudiantes implementan arquitecturas y entrenan con conjuntos de datos personalizados."
+      },
+      "g11-rl": {
+        "title": "Aprendizaje por Refuerzo e IA de Juegos",
+        "description": "Procesos de decisión de Markov, Q-learning, gradientes de política y RL multi-agente. Los estudiantes entrenan agentes para jugar juegos Atari, juegos de mesa y navegar entornos."
+      },
+      "g11-ai-safety": {
+        "title": "Seguridad de la IA e Investigación de Alineamiento",
+        "description": "Problema de alineamiento, interpretabilidad, robustez y supervisión escalable. Los estudiantes realizan pequeños experimentos de alineamiento y revisan investigación actual."
+      },
+      "g11-systems-thinking": {
+        "title": "Negociación Compleja y Pensamiento Sistémico",
+        "description": "Aprovecha frameworks de pensamiento sistémico para analizar problemas globales complejos. Incluye diagramas de bucles causales, modelos de stock-flujo y negociación multi-stakeholder."
+      },
+      "g11-leadership": {
+        "title": "Liderazgo en Equipos Distribuidos",
+        "description": "Lidera equipos remotos y multifuncionales de IA. Temas: comunicación asíncrona, OKRs, seguridad psicológica, resolución de conflictos y escalado del liderazgo."
+      },
+      "g11-comm": {
+        "title": "Comunicación Estratégica y Habla en Público",
+        "description": "Elabora narrativas estratégicas para audiencias técnicas y no técnicas. Los estudiantes presentan keynotes, pitches a inversores, briefings de white papers y comunicaciones de crisis."
+      },
+      "g11-corp-governance": {
+        "title": "Gobierno Corporativo en la Era de la IA",
+        "description": "Estrategia de IA a nivel de junta, responsabilidad fiduciaria, rendición de cuentas algorítmica y cumplimiento regulatorio. Los estudiantes interpretan el rol de asesores de C-suite."
+      },
+      "g11-ai-policy": {
+        "title": "Políticas y Regulación de la IA Globalmente",
+        "description": "Compara marcos regulatorios de IA: EU AI Act, Órdenes Ejecutivas de EE.UU., regulaciones de IA de China y perspectivas del sur global. Los estudiantes redactan legislación modelo."
+      },
+      "g11-tech-ethics": {
+        "title": "Ética Tecnológica y Filosofía Moral",
+        "description": "Ética avanzada normativa y aplicada para tecnólogos: utilitarismo, deontología, ética de la virtud, ética del cuidado y posthumanismo."
+      },
+      "g11-quant-modeling": {
+        "title": "Modelización Cuantitativa",
+        "description": "Modelización matemática avanzada mediante técnicas de IA. Procesos estocásticos, simulación Monte Carlo, inferencia bayesiana y algoritmos de optimización."
+      },
+      "g11-ai-economics": {
+        "title": "IA en Economía y Finanzas",
+        "description": "Trading algorítmico, simulación de mercados, análisis predictivo y modelización de políticas económicas impulsada por IA. Los estudiantes realizan backtesting de estrategias y analizan datos de mercado."
+      },
+      "g11-comp-neuro": {
+        "title": "Neurociencia Computacional",
+        "description": "Puente entre neurociencia e IA: redes neuronales pulsantes, interfaces cerebro-computadora, codificación neural y modelización cognitiva."
+      },
+      "g12-capstone": {
+        "title": "Despliegue de Aplicación Autónoma Capstone",
+        "description": "Despliega una aplicación autónoma de IA de grado producción desde el concepto hasta el lanzamiento. Cubre CI/CD para IA, servir modelos, monitoreo, pruebas A/B y respuesta a incidentes."
+      },
+      "g12-advanced-ai-arch": {
+        "title": "Arquitectura Avanzada de Sistemas de IA",
+        "description": "Diseña infraestructura de IA a gran escala: paralelismo de modelos, optimización de memoria, cuantización y fine-tuning LoRA/QLoRA para LLMs."
+      },
+      "g12-ai-science": {
+        "title": "IA para el Descubrimiento Científico",
+        "description": "Usa IA para acelerar el descubrimiento científico: plegamiento de proteínas, descubrimiento de fármacos, ciencia de materiales y astrofísica. Los estudiantes contribuyen a desafíos de ciencia abierta."
+      },
+      "g12-llm-eng": {
+        "title": "Ingeniería de Modelos de Lenguaje Grandes",
+        "description": "Inmersión profunda en los internos de LLMs: optimización de caché KV, decodificación especulativa, mixture-of-experts y fine-tuning de seguridad con RLHF y Constitutional AI."
+      },
+      "g12-advanced-leadership": {
+        "title": "Liderazgo Avanzado y Habla en Público",
+        "description": "Presencia ejecutiva, liderazgo de pensamiento y presentaciones de alto riesgo. Los estudiantes presentan un keynote estilo TED y lideran una iniciativa multifuncional."
+      },
+      "g12-venture": {
+        "title": "Mentalidad Emprendedora y Diseño de Ventures",
+        "description": "Desde la idea hasta el venture: reconocimiento de oportunidades, diseño de modelo de negocio, startup lean, recaudación de fondos y estructuras legales para startups de IA."
+      },
+      "g12-cross-cultural": {
+        "title": "Comunicación Intercultural y Liderazgo Global",
+        "description": "Lidera entre culturas con inteligencia emocional, negociación y comunicación inclusiva. Incluye estudio de dimensiones culturales y liderazgo de equipos virtuales."
+      },
+      "g12-venture-incubation": {
+        "title": "Incubación de Ventures Impulsada por IA",
+        "description": "Lanza una startup de IA con diseño ético de modelo de negocio. Cubre equidad, medición de impacto, gestión de productos de IA e innovación responsable."
+      },
+      "g12-futurism": {
+        "title": "Futurismo y Planificación de Escenarios",
+        "description": "Usa métodos de prospectiva para anticipar futuros tecnológicos, sociales y económicos. Los estudiantes construyen escenarios y presentan recomendaciones estratégicas."
+      },
+      "g12-tech-policy": {
+        "title": "Defensa de Políticas de IA y Liderazgo Cívico",
+        "description": "Transforma la perspicacia ética en acción pública. Los estudiantes redactan propuestas de política, interactúan con legisladores y dirigen campañas de defensa simuladas."
+      },
+      "g12-research-thesis": {
+        "title": "Tesis de Investigación Interdisciplinaria",
+        "description": "Investigación independiente de un año en la intersección de la IA y otra disciplina. Incluye revisión bibliográfica, metodología, análisis original y defensa."
+      },
+      "g12-ai-space": {
+        "title": "IA en la Exploración Espacial",
+        "description": "Aplica IA a misiones espaciales: navegación autónoma, análisis de imágenes satelitales, detección de exoplanetas y planificación de misiones con conjuntos de datos de Marte y lunares."
+      },
+      "g12-comp-social": {
+        "title": "Ciencia Social Computacional",
+        "description": "Usa IA y datos a gran escala para estudiar el comportamiento humano: análisis de redes sociales, difusión de desinformación, dinámicas de sentimiento y ética computacional."
+      }
+    }
+  },
+  "admissions": {
+    "title": "Inscripción de Estudiantes",
+    "subtitle": "Comienza tu camino en Symbio AI Academy. Completa los pasos a continuación para iniciar tu solicitud.",
+    "step1Title": "Datos del Estudiante y Tutor",
+    "step2Title": "Selección de Línea de Estudio",
+    "step3Title": "Declaración de Intención",
+    "step4Title": "Solicitud Recibida",
+    "fields": {
+      "fullName": "Nombre completo",
+      "age": "Edad",
+      "grade": "Grado de ingreso",
+      "email": "Correo electrónico",
+      "country": "País / Ubicación",
+      "track": "Elige tu línea",
+      "statement": "Cuéntanos por qué quieres unirte a una academia centrada en la IA y qué esperas construir."
+    },
+    "placeholders": {
+      "fullName": "Ingresa tu nombre completo",
+      "age": "Edad",
+      "email": "estudiante@ejemplo.com",
+      "country": "País",
+      "statement": "Quiero unirme a Symbio AI Academy porque..."
+    },
+    "errors": {
+      "fullNameRequired": "El nombre completo es obligatorio",
+      "ageRequired": "La edad es obligatoria",
+      "gradeRequired": "El nivel de grado es obligatorio",
+      "emailRequired": "Se requiere un correo válido",
+      "countryRequired": "El país es obligatorio",
+      "trackRequired": "Por favor selecciona un área de enfoque",
+      "statementRequired": "Por favor escribe al menos 30 caracteres"
+    },
+    "actions": {
+      "continue": "Continuar",
+      "submit": "Enviar Solicitud",
+      "sendWhatsApp": "Enviar por WhatsApp",
+      "sendInquiry": "Enviar Consulta por WhatsApp"
+    },
+    "tracks": {
+      "aiEngineering": "Ingeniería de IA",
+      "humanLeadership": "Liderazgo Humano",
+      "ethicsSociety": "Ética y Sociedad",
+      "interdisciplinary": "Estudios Interdisciplinarios"
+    },
+    "summary": {
+      "referenceId": "ID de Referencia",
+      "name": "Nombre",
+      "grade": "Grado",
+      "track": "Línea",
+      "applicationReceived": "Tu solicitud ha sido registrada. Guárdala o envíasela a nuestro equipo de admisiones por WhatsApp."
+    }
+  },
+  "compliance": {
+    "title": "Privacidad y Cumplimiento",
+    "subtitle": "Symbio AI Academy está comprometida con la protección de datos de los estudiantes y el uso responsable de la IA. Operamos bajo estrictos estándares de privacidad para mantener los datos de los estudiantes seguros, anónimos y nunca utilizados para el entrenamiento de modelos.",
+    "badges": {
+      "zeroDataTraining": "API Sin Entrenamiento de Datos",
+      "ferpa": "Alineado con FERPA",
+      "deidentified": "Proxies Desidentificados"
+    },
+    "items": {
+      "zeroDataTraining": {
+        "title": "Aislamiento API Sin Entrenamiento",
+        "desc": "Todos los datos de los estudiantes se procesan dentro de entornos aislados y nunca se utilizan para entrenar modelos externos o internos."
+      },
+      "ferpa": {
+        "title": "Alineación con Funcionarios Escolares FERPA",
+        "desc": "Nuestras plataformas se alinean con las pautas FERPA para registros educativos, garantizando el cumplimiento y la administración legal de datos."
+      },
+      "deidentified": {
+        "title": "Desidentificación Automatizada",
+        "desc": "Utilizamos estándares proxy automatizados para desidentificar los datos de los estudiantes, protegiendo las identidades mientras preservamos los valiosos resultados de aprendizaje."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "Todos los derechos reservados. Est. 2026."
+  },
+  "language": {
+    "switchTo": "EN",
+    "current": "ES"
+  }
+}

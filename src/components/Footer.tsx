@@ -1,4 +1,10 @@
+"use client";
+
+import { useI18n } from "@/i18n/context";
+
 export default function Footer() {
+  const { t } = useI18n();
+
   return (
     <footer className="py-12 border-t border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -10,7 +16,7 @@ export default function Footer() {
             <span className="font-semibold text-sm text-slate-300">Symbio AI Academy</span>
           </div>
           <p className="text-xs text-slate-500 text-center md:text-right">
-            &copy; {new Date().getFullYear()} Symbio AI Academy. All rights reserved. Est. 2026.
+            &copy; {new Date().getFullYear()} Symbio AI Academy. {t("footer.copyright")}
           </p>
         </div>
       </div>

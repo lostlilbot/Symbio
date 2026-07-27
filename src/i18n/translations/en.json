@@ -1,0 +1,338 @@
+{
+  "navigation": {
+    "home": "Home",
+    "curriculum": "Curriculum",
+    "admissions": "Admissions",
+    "contact": "Contact",
+    "chatWithAdmissions": "Chat with Admissions"
+  },
+  "home": {
+    "tagline": "Enrolling for 2026 — Grades 9–12",
+    "heroTitle": "Symbio",
+    "heroSubtitle": "The Future of Autonomous, AI-Driven Secondary Education (Grades 9–12)",
+    "heroDescription": "Experience 24/7 multimodal AI instruction, project-based learning where students spend over 60% of their time building real AI systems, rigorous ethical oversight, and a curriculum engineered for the world ahead.",
+    "ctaExplore": "Explore Curriculum",
+    "ctaApply": "Start Application",
+    "pillarsTitle": "The Four Pillars"
+  },
+  "curriculum": {
+    "pageTitle": "The Four Pillars",
+    "pageSubtitle": "A deep dive into every subject across Grades 9–12. Each pillar is engineered to develop a critical dimension of future-ready intelligence.",
+    "fullCurriculum": "Full Curriculum",
+    "clickForDetails": "Click for details",
+    "labsTitle": "Hands-On Labs",
+    "outcomesTitle": "Learning Outcomes",
+    "gradeTheme": {
+      "9": "Foundations of Intelligence",
+      "10": "Intermediate Intelligence",
+      "11": "Advanced Intelligence",
+      "12": "Capstone & Mastery"
+    },
+    "pillars": {
+      "ai-mastery": {
+        "name": "AI Mastery & Tech Literacy",
+        "description": "Advanced AI fluency, coding, and autonomous systems",
+        "labs": ["Multi-Persona Fact-Checking", "Autonomous Agent Swarms", "RAG Knowledge Bases"]
+      },
+      "human-edge": {
+        "name": "Human Edge Skills",
+        "description": "Critical thinking, creativity, and emotional intelligence",
+        "labs": ["Biomimetic Innovation Challenges", "Collaborative Problem Solving"]
+      },
+      "ethics-leadership": {
+        "name": "Ethics, Society & Leadership",
+        "description": "Responsible AI stewardship and global citizenship",
+        "labs": ["AI Policy Simulation", "Ethical AI Red-Teaming"]
+      },
+      "interdisciplinary": {
+        "name": "Interdisciplinary Domains",
+        "description": "AI applied across science, arts, and real-world domains",
+        "labs": ["AI in Climate Science", "Computational Art & Music"]
+      }
+    },
+    "courses": {
+      "g9-prompt": {
+        "title": "Foundations of Prompt Engineering",
+        "description": "Master communicating with AI systems through structured prompts, contexts, and few-shot patterns. Students experiment with multimodal prompting (text, image, audio) and learn prompt optimization loops."
+      },
+      "g9-logic": {
+        "title": "Logic & Algorithmic Thinking",
+        "description": "Build computational thinking through formal logic, pseudocode, flowcharts, and basic algorithms. Students progress from Boolean logic to sorting, searching, and graph traversal basics."
+      },
+      "g9-python-ai": {
+        "title": "Introduction to Python for AI",
+        "description": "Hands-on Python programming focused on data structures, functions, and libraries essential for AI workloads: NumPy, Pandas, and Matplotlib."
+      },
+      "g9-data-literacy": {
+        "title": "Data Literacy & Visualization",
+        "description": "Understand how data shapes decisions in society. Students collect, analyze, and present real-world datasets, learning to spot misleading statistics and tell truthful data stories."
+      },
+      "g9-critical-thinking": {
+        "title": "Critical Thinking & Argumentation",
+        "description": "Develop rigorous habits of mind: identifying assumptions, evaluating evidence, and constructing sound arguments. Covers logical fallacies, cognitive biases, and structured debate formats."
+      },
+      "g9-design-thinking": {
+        "title": "Creative Expression & Design Thinking",
+        "description": "Apply human-centered design processes to solve real problems. Students prototype using digital tools, physical materials, and iterative feedback cycles."
+      },
+      "g9-digital-citizenship": {
+        "title": "Digital Citizenship & Safety",
+        "description": "Explore rights, responsibilities, and risks in digital spaces. Topics include privacy, cybersecurity hygiene, intellectual property, and building healthy digital habits."
+      },
+      "g9-ethics-ai": {
+        "title": "Ethics of Artificial Intelligence",
+        "description": "Introduction to moral philosophy applied to AI. Students explore trolley problems, algorithmic fairness, and the social consequences of automated decision-making."
+      },
+      "g9-global-studies": {
+        "title": "Introduction to Global Studies",
+        "description": "Understand global interdependence, cultural diversity, and the United Nations Sustainable Development Goals as a framework for future leadership."
+      },
+      "g9-ai-biology": {
+        "title": "AI in Biology & Health",
+        "description": "Explore how AI revolutionizes biology: protein folding, medical imaging, genomics, and personalized medicine. Students analyze real healthcare datasets."
+      },
+      "g9-comp-art": {
+        "title": "Computational Art & Music",
+        "description": "Create generative art, music, and interactive installations using code. Blend creativity with algorithms, exploring randomness, noise fields, and user interaction."
+      },
+      "g10-multi-agent": {
+        "title": "Multi-Agent Orchestration Systems",
+        "description": "Design intelligent systems where specialized AI agents collaborate autonomously. Covers agent frameworks, tool use, memory, and coordination protocols."
+      },
+      "g10-ml-fundamentals": {
+        "title": "Machine Learning Fundamentals",
+        "description": "Statistical learning theory, linear regression, classification, decision trees, and ensemble methods. Students implement algorithms from scratch and with Scikit-learn."
+      },
+      "g10-computer-vision": {
+        "title": "Computer Vision Fundamentals",
+        "description": "Image processing, convolutional neural networks, object detection, and image segmentation. Real-world projects include facial recognition safety audits and medical imaging."
+      },
+      "g10-nlp": {
+        "title": "Natural Language Processing Basics",
+        "description": "Text preprocessing, embeddings, transformers, and sentiment analysis. Students build chatbots, text classifiers, and translation prototypes."
+      },
+      "g10-creative-comm": {
+        "title": "Advanced Creative Communication",
+        "description": "Elevate storytelling, persuasive speaking, and multimodal communication. Students create TED-style talks, podcasts, and interactive presentations."
+      },
+      "g10-negotiation": {
+        "title": "Negotiation & Mediation Skills",
+        "description": "Principled negotiation, BATNA analysis, mediation techniques, and cross-cultural negotiation. Used in business, diplomacy, and community settings."
+      },
+      "g10-eq": {
+        "title": "Emotional Intelligence & Empathy Engineering",
+        "description": "Self-awareness, self-regulation, motivation, empathy, and social skills. Engineering empathy into AI UX by studying voice tone, facial expression, and body language datasets."
+      },
+      "g10-ai-ethics": {
+        "title": "AI Ethics & Global Bias Auditing",
+        "description": "Deepened ethics coursework focusing on auditing real AI systems for fairness, transparency, accountability, and bias across cultures, genders, and socioeconomic groups."
+      },
+      "g10-philosophy-mind": {
+        "title": "Philosophy of Mind & Consciousness",
+        "description": "What is consciousness? Can machines truly think? Students examine functionalism, integrated information theory, Chinese Room arguments, and ethical implications of sentient AI."
+      },
+      "g10-social-impact": {
+        "title": "Social Impact & Community Design",
+        "description": "Design AI solutions for social good using human-centered design and community-based participatory research. Students partner with local organizations."
+      },
+      "g10-biomimetic": {
+        "title": "Biomimetic Design",
+        "description": "Nature-inspired innovation: studying biological systems to solve engineering and design challenges. Includes evolution algorithms, swarm intelligence, and structural optimization."
+      },
+      "g10-ai-environment": {
+        "title": "AI in Environmental Science",
+        "description": "Apply AI to climate modeling, wildlife conservation, precision agriculture, and pollution tracking. Students work with NASA and NOAA open datasets."
+      },
+      "g10-math-modeling": {
+        "title": "Mathematical Modeling with AI",
+        "description": "Use AI and mathematics to model complex systems: epidemiology, urban traffic, economic markets, and ecological networks. Emphasize differential equations and Monte Carlo simulation."
+      },
+      "g11-workflow": {
+        "title": "Autonomous Workflow Automation",
+        "description": "Design, implement, and monitor fully autonomous AI workflows that integrate APIs, databases, and human-in-the-loop gates for complex operations."
+      },
+      "g11-deep-learning": {
+        "title": "Deep Learning & Neural Architectures",
+        "description": "PyTorch fundamentals, backpropagation, CNN, RNN, Transformer, and GAN architectures. Students implement architectures and train on custom datasets."
+      },
+      "g11-rl": {
+        "title": "Reinforcement Learning & Game AI",
+        "description": "Markov decision processes, Q-learning, policy gradients, and multi-agent RL. Students train agents to play Atari games, board games, and navigate environments."
+      },
+      "g11-ai-safety": {
+        "title": "AI Safety & Alignment Research",
+        "description": "Alignment problem, interpretability, robustness, and scalable oversight. Students conduct small alignment experiments and review current research."
+      },
+      "g11-systems-thinking": {
+        "title": "Complex Negotiation & Systems Thinking",
+        "description": "Leverage systems thinking frameworks to analyze complex global problems. Includes causal loop diagrams, stock-and-flow models, and multi-stakeholder negotiation."
+      },
+      "g11-leadership": {
+        "title": "Leadership in Distributed Teams",
+        "description": "Lead remote, cross-functional AI teams. Topics: asynchronous communication, OKRs, psychological safety, conflict resolution, and scaling leadership."
+      },
+      "g11-comm": {
+        "title": "Strategic Communication & Public Speaking",
+        "description": "Craft strategic narratives for technical and non-technical audiences. Students deliver keynotes, investor pitches, white paper briefings, and crisis communications."
+      },
+      "g11-corp-governance": {
+        "title": "Corporate Governance in the Age of AI",
+        "description": "Board-level AI strategy, fiduciary responsibility, algorithmic accountability, and regulatory compliance. Students role-play as C-suite advisors."
+      },
+      "g11-ai-policy": {
+        "title": "AI Policy & Regulation Globally",
+        "description": "Compare AI regulatory frameworks: EU AI Act, US Executive Orders, China AI regulations, and global south perspectives. Students draft model legislation."
+      },
+      "g11-tech-ethics": {
+        "title": "Technology Ethics & Moral Philosophy",
+        "description": "Advanced normative and applied ethics for technologists: utilitarianism, deontology, virtue ethics, care ethics, and posthumanism."
+      },
+      "g11-quant-modeling": {
+        "title": "Quantitative Modeling",
+        "description": "Advanced mathematical modeling using AI techniques. Stochastic processes, Monte Carlo simulation, Bayesian inference, and optimization algorithms."
+      },
+      "g11-ai-economics": {
+        "title": "AI in Economics & Finance",
+        "description": "Algorithmic trading, market simulation, predictive analytics, and AI-driven economic policy modeling. Students backtest strategies and analyze market data."
+      },
+      "g11-comp-neuro": {
+        "title": "Computational Neuroscience",
+        "description": "Bridge neuroscience and AI: spiking neural networks, brain-computer interfaces, neural coding, and cognitive modeling."
+      },
+      "g12-capstone": {
+        "title": "Capstone Autonomous Application Deployment",
+        "description": "Deploy a production-grade autonomous AI application from concept to launch. Covers CI/CD for AI, model serving, monitoring, A/B testing, and incident response."
+      },
+      "g12-advanced-ai-arch": {
+        "title": "Advanced AI Systems Architecture",
+        "description": "Design large-scale AI infrastructure: model parallelism, memory optimization, quantization, and LoRA/QLoRA fine-tuning for LLMs."
+      },
+      "g12-ai-science": {
+        "title": "AI for Scientific Discovery",
+        "description": "Use AI to accelerate scientific discovery: protein folding, drug discovery, materials science, and astrophysics. Students contribute to open-science challenges."
+      },
+      "g12-llm-eng": {
+        "title": "Large Language Model Engineering",
+        "description": "Deep dive into LLM internals: KV-cache optimization, speculative decoding, mixture-of-experts, and safety fine-tuning with RLHF and Constitutional AI."
+      },
+      "g12-advanced-leadership": {
+        "title": "Advanced Leadership & Public Speaking",
+        "description": "Executive presence, thought leadership, and high-stakes presentation. Students deliver a TED-style keynote and lead a cross-functional initiative."
+      },
+      "g12-venture": {
+        "title": "Entrepreneurial Mindset & Venture Design",
+        "description": "From idea to venture: opportunity recognition, business model design, lean startup, fundraising, and legal structures for AI startups."
+      },
+      "g12-cross-cultural": {
+        "title": "Cross-Cultural Communication & Global Leadership",
+        "description": "Lead across cultures with emotional intelligence, negotiation, and inclusive communication. Includes study of cultural dimensions and virtual team leadership."
+      },
+      "g12-venture-incubation": {
+        "title": "AI-Driven Venture Incubation",
+        "description": "Launch an AI-powered startup with ethical business model design. Covers equity, impact measurement, AI product management, and responsible innovation."
+      },
+      "g12-futurism": {
+        "title": "Futurism & Scenario Planning",
+        "description": "Use foresight methods to anticipate technological, social, and economic futures. Students build scenarios and present strategic recommendations."
+      },
+      "g12-tech-policy": {
+        "title": "AI Policy Advocacy & Civic Leadership",
+        "description": "Transform ethical insight into public action. Students draft policy proposals, engage with lawmakers, and run mock advocacy campaigns."
+      },
+      "g12-research-thesis": {
+        "title": "Interdisciplinary Research Thesis",
+        "description": "Year-long independent research at the intersection of AI and another discipline. Includes literature review, methodology, original analysis, and defense."
+      },
+      "g12-ai-space": {
+        "title": "AI in Space Exploration",
+        "description": "Apply AI to space missions: autonomous navigation, satellite image analysis, exoplanet detection, and mission planning with Mars and lunar datasets."
+      },
+      "g12-comp-social": {
+        "title": "Computational Social Science",
+        "description": "Use AI and large-scale data to study human behavior: social network analysis, misinformation diffusion, sentiment dynamics, and computational ethics."
+      }
+    }
+  },
+  "admissions": {
+    "title": "Student Enrollment",
+    "subtitle": "Begin your journey at Symbio AI Academy. Complete the steps below to start your application.",
+    "step1Title": "Student & Guardian Details",
+    "step2Title": "Track & Interest Selection",
+    "step3Title": "Statement of Intent",
+    "step4Title": "Application Received",
+    "fields": {
+      "fullName": "Full Name",
+      "age": "Age",
+      "grade": "Entering Grade",
+      "email": "Email Address",
+      "country": "Country / Location",
+      "track": "Choose your track",
+      "statement": "Tell us why you want to join an AI-primary academy and what you hope to build."
+    },
+    "placeholders": {
+      "fullName": "Enter full name",
+      "age": "Age",
+      "email": "student@example.com",
+      "country": "Country",
+      "statement": "I want to join Symbio AI Academy because..."
+    },
+    "errors": {
+      "fullNameRequired": "Full name is required",
+      "ageRequired": "Age is required",
+      "gradeRequired": "Grade level is required",
+      "emailRequired": "Valid email is required",
+      "countryRequired": "Country is required",
+      "trackRequired": "Please select a primary focus area",
+      "statementRequired": "Please write at least 30 characters"
+    },
+    "actions": {
+      "continue": "Continue",
+      "submit": "Submit Application",
+      "sendWhatsApp": "Send via WhatsApp",
+      "sendInquiry": "Send Inquiry via WhatsApp"
+    },
+    "tracks": {
+      "aiEngineering": "AI Engineering",
+      "humanLeadership": "Human Leadership",
+      "ethicsSociety": "Ethics & Society",
+      "interdisciplinary": "Interdisciplinary Studies"
+    },
+    "summary": {
+      "referenceId": "Reference ID",
+      "name": "Name",
+      "grade": "Grade",
+      "track": "Track",
+      "applicationReceived": "Your application has been recorded. Save or send it to our admissions team via WhatsApp."
+    }
+  },
+  "compliance": {
+    "title": "Privacy & Compliance",
+    "subtitle": "Symbio AI Academy is committed to student data protection and responsible AI use. We operate under strict privacy standards to keep learner data safe, anonymous, and never used for model training.",
+    "badges": {
+      "zeroDataTraining": "Zero Data-Training API",
+      "ferpa": "FERPA Aligned",
+      "deidentified": "De-Identified Proxies"
+    },
+    "items": {
+      "zeroDataTraining": {
+        "title": "Zero Data-Training API Sandboxing",
+        "desc": "All student data is processed within isolated sandboxed environments and never used to train external or internal models."
+      },
+      "ferpa": {
+        "title": "FERPA School Official Alignment",
+        "desc": "Our platforms align with FERPA guidelines for educational records, ensuring compliance and lawful data stewardship."
+      },
+      "deidentified": {
+        "title": "Automated De-Identification",
+        "desc": "We use automated proxy standards to de-identify student data, protecting identities while preserving valuable learning outcomes."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved. Est. 2026."
+  },
+  "language": {
+    "switchTo": "ES",
+    "current": "EN"
+  }
+}
