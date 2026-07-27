@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { pillars, gradesData, pillarMeta, levelStyles, type PillarId, type GradeLevel } from "@/data/curriculum";
 import { PillarIcons } from "@/components/icons";
+import { useI18n } from "@/i18n/context";
 
 const pillarColorMap: Record<PillarId, { from: string; to: string; border: string; text: string; bg: string; light: string }> = {
   "ai-mastery": { from: "from-cyan-500", to: "to-emerald-400", border: "border-cyan-500/30", text: "text-cyan-400", bg: "bg-cyan-500/10", light: "bg-cyan-500/5" },
@@ -19,6 +20,7 @@ const gradeThemes: Record<GradeLevel, string> = {
 };
 
 export default function CurriculumPage() {
+  const { t } = useI18n();
   const [activePillar, setActivePillar] = useState<PillarId>("ai-mastery");
   const [expandedCourse, setExpandedCourse] = useState<string | null>(null);
 
@@ -46,7 +48,7 @@ export default function CurriculumPage() {
               The Four <span className="glow-text">Pillars</span>
             </h1>
             <p className="text-lg text-slate-400 max-w-3xl mx-auto">
-              A deep dive into every subject across Grades 9–12. Each pillar is engineered to develop a critical dimension of future-ready intelligence.
+              {t("curriculum.subtitle")}
             </p>
           </div>
 
@@ -160,6 +162,7 @@ export default function CurriculumPage() {
                                 </span>
                               </div>
                               <h3 className="text-lg font-semibold text-white mb-2 leading-snug">{course.title}</h3>
+                              <p className="text-xs text-red-400 font-medium mb-2">{t("curriculum.clickForDetails")}</p>
                               <p className="text-sm text-slate-400 leading-relaxed">{course.description}</p>
                             </div>
                             <svg
@@ -182,7 +185,7 @@ export default function CurriculumPage() {
                             <div className="h-px bg-white/10" />
 
                             <div>
-                              <p className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Hands-On Labs</p>
+                              <p className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">{t("curriculum.sections.labs")}</p>
                               <div className="grid grid-cols-1 gap-3">
                                 {course.labs.map((lab) => (
                                   <div key={lab.name} className="rounded-xl border border-white/10 bg-white/5 p-5">
@@ -208,7 +211,7 @@ export default function CurriculumPage() {
                             </div>
 
                             <div>
-                              <p className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Learning Outcomes</p>
+                              <p className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">{t("curriculum.sections.outcomes")}</p>
                               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                 {course.outcomes.map((outcome) => (
                                   <li key={outcome} className="flex items-start gap-3 text-sm text-slate-300">

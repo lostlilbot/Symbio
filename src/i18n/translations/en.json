@@ -1,0 +1,134 @@
+{
+  "home": {
+    "tagline": "Enrolling for 2026 — Grades 9–12",
+    "heroTitle": "Symbio AI Academy",
+    "heroSubtitle": "The Future of Autonomous, AI-Driven Secondary Education (Grades 9–12)",
+    "heroDescription": "Experience 24/7 multimodal AI instruction, project-based learning where students spend over 60% of their time building real AI systems, rigorous ethical oversight, and a curriculum engineered for the world ahead.",
+    "ctaExplore": "Explore Curriculum",
+    "ctaApply": "Start Application"
+  },
+  "navigation": {
+    "home": "Home",
+    "curriculum": "Curriculum",
+    "admissions": "Admissions",
+    "contact": "Contact",
+    "chatWithAdmissions": "Chat with Admissions"
+  },
+  "curriculum": {
+    "title": "The Four Pillars",
+    "subtitle": "A deep dive into every subject across Grades 9–12. Each pillar is engineered to develop a critical dimension of future-ready intelligence.",
+    "interactiveTitle": "Interactive Curriculum Explorer",
+    "interactiveSubtitle": "Explore our rigorous, AI-first curriculum designed for Grades 9–12. Select a grade level and pillar to discover transformative courses, hands-on labs, and real-world outcomes.",
+    "clickForDetails": "Click for details",
+    "pillars": {
+      "aiMastery": {
+        "name": "AI Mastery & Tech Literacy",
+        "description": "Advanced AI fluency, coding, and autonomous systems"
+      },
+      "humanEdge": {
+        "name": "Human Edge Skills",
+        "description": "Critical thinking, creativity, and emotional intelligence"
+      },
+      "ethicsLeadership": {
+        "name": "Ethics, Society & Leadership",
+        "description": "Responsible AI stewardship and global citizenship"
+      },
+      "interdisciplinary": {
+        "name": "Interdisciplinary Domains",
+        "description": "AI applied across science, arts, and real-world domains"
+      }
+    },
+    "levels": {
+      "foundation": "Foundation",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "capstone": "Capstone"
+    },
+    "sections": {
+      "labs": "Hands-On Labs",
+      "outcomes": "Learning Outcomes"
+    }
+  },
+  "admissions": {
+    "title": "Student Enrollment",
+    "subtitle": "Begin your journey at Symbio AI Academy. Complete the steps below to start your application.",
+    "step1Title": "Student & Guardian Details",
+    "step2Title": "Track & Interest Selection",
+    "step3Title": "Statement of Intent",
+    "step4Title": "Application Received",
+    "fields": {
+      "fullName": "Full Name",
+      "age": "Age",
+      "grade": "Entering Grade",
+      "email": "Email Address",
+      "country": "Country / Location",
+      "track": "Track & Interest Selection",
+      "statement": "Tell us why you want to join an AI-primary academy and what you hope to build."
+    },
+    "placeholders": {
+      "fullName": "Enter full name",
+      "age": "Age",
+      "email": "student@example.com",
+      "country": "Country",
+      "statement": "I want to join Symbio AI Academy because..."
+    },
+    "errors": {
+      "fullNameRequired": "Full name is required",
+      "ageRequired": "Age is required",
+      "gradeRequired": "Grade level is required",
+      "emailRequired": "Valid email is required",
+      "countryRequired": "Country is required",
+      "trackRequired": "Please select a primary focus area",
+      "statementRequired": "Please write at least 30 characters"
+    },
+    "actions": {
+      "continue": "Continue",
+      "submit": "Submit Application",
+      "sendWhatsApp": "Send via WhatsApp",
+      "sendInquiry": "Send Inquiry via WhatsApp"
+    },
+    "tracks": {
+      "aiEngineering": "AI Engineering",
+      "humanLeadership": "Human Leadership",
+      "ethicsSociety": "Ethics & Society",
+      "interdisciplinary": "Interdisciplinary Studies"
+    },
+    "summary": {
+      "referenceId": "Reference ID",
+      "name": "Name",
+      "grade": "Grade",
+      "track": "Track",
+      "applicationReceived": "Your application has been recorded. Save or send it to our admissions team via WhatsApp."
+    }
+  },
+  "compliance": {
+    "title": "Privacy & Compliance",
+    "subtitle": "Symbio AI Academy is committed to student data protection and responsible AI use. We operate under strict privacy standards to keep learner data safe, anonymous, and never used for model training.",
+    "badges": {
+      "zeroDataTraining": "Zero Data-Training API",
+      "ferpa": "FERPA Aligned",
+      "deidentified": "De-Identified Proxies"
+    },
+    "items": {
+      "zeroDataTraining": {
+        "title": "Zero Data-Training API Sandboxing",
+        "desc": "All student data is processed within isolated sandboxed environments and never used to train external or internal models."
+      },
+      "ferpa": {
+        "title": "FERPA School Official Alignment",
+        "desc": "Our platforms align with FERPA guidelines for educational records, ensuring compliance and lawful data stewardship."
+      },
+      "deidentified": {
+        "title": "Automated De-Identification",
+        "desc": "We use automated proxy standards to de-identify student data, protecting identities while preserving valuable learning outcomes."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved. Est. 2026."
+  },
+  "language": {
+    "switchTo": "Español",
+    "current": "English"
+  }
+}
