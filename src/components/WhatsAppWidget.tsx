@@ -10,7 +10,7 @@ const WHATSAPP_ICON = (
 
 export default function WhatsAppWidget() {
   const { t } = useI18n();
-  const defaultMessage = "Hello Symbio AI Academy, I am interested in learning more about admissions.";
+  const defaultMessage = t("whatsapp.defaultMessage");
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">

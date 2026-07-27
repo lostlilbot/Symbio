@@ -7,7 +7,7 @@
     "chatWithAdmissions": "Chat with Admissions"
   },
   "home": {
-    "tagline": "Enrolling for 2026 — Grades 9–12",
+    "tagline": "Enrolling for 2026–2027 — Grades 9–12",
     "heroTitle": "Symbio",
     "heroSubtitle": "The Future of Autonomous, AI-Driven Secondary Education (Grades 9–12)",
     "heroDescription": "Experience 24/7 multimodal AI instruction, project-based learning where students spend over 60% of their time building real AI systems, rigorous ethical oversight, and a curriculum engineered for the world ahead.",
@@ -22,6 +22,12 @@
     "clickForDetails": "Click for details",
     "labsTitle": "Hands-On Labs",
     "outcomesTitle": "Learning Outcomes",
+    "gradeLabel": {
+      "9": "Grade 9",
+      "10": "Grade 10",
+      "11": "Grade 11",
+      "12": "Grade 12"
+    },
     "gradeTheme": {
       "9": "Foundations of Intelligence",
       "10": "Intermediate Intelligence",

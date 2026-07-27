@@ -75,20 +75,20 @@ export default function EnrollmentForm() {
 
   const sendViaWhatsApp = () => {
     const message = [
-      `Hello Symbio AI Academy Admissions,`,
+      t("whatsapp.helloAdmissions"),
       ``,
-      `I would like to submit my application.`,
-      `Reference ID: ${referenceId || "N/A"}`,
+      t("whatsapp.submitApplication"),
+      `${t("admissions.summary.referenceId")}: ${referenceId || "N/A"}`,
       ``,
-      `Student Details:`,
-      `Name: ${formData.fullName}`,
-      `Age: ${formData.age}`,
-      `Grade: ${formData.grade}`,
-      `Email: ${formData.email}`,
-      `Country: ${formData.country}`,
-      `Focus Track: ${tracks.find(t => t.value === formData.track)?.labelKey || formData.track}`,
+      t("whatsapp.studentDetails"),
+      `${t("admissions.summary.name")}: ${formData.fullName}`,
+      `${t("admissions.fields.age")}: ${formData.age}`,
+      `${t("admissions.fields.grade")}: ${formData.grade}`,
+      `${t("admissions.fields.email")}: ${formData.email}`,
+      `${t("admissions.fields.country")}: ${formData.country}`,
+      `${t("admissions.fields.track")}: ${tracks.find(t => t.value === formData.track)?.labelKey || formData.track}`,
       ``,
-      `Statement of Intent:`,
+      t("admissions.fields.statement"),
       formData.statement,
     ].join("\n");
     window.open(buildWhatsAppUrl(message), "_blank");
@@ -215,14 +215,14 @@ export default function EnrollmentForm() {
                 <a
                   href={buildWhatsAppUrl(
                     [
-                      `Hello Symbio AI Academy Admissions,`,
+                      t("whatsapp.helloAdmissions"),
                       ``,
-                      `I have completed my application.`,
-                      `Reference ID: ${referenceId}`,
+                      t("whatsapp.applicationComplete"),
+                      `${t("admissions.summary.referenceId")}: ${referenceId}`,
                       ``,
-                      `Name: ${formData.fullName}`,
-                      `Grade: ${formData.grade}`,
-                      `Track: ${tracks.find(t => t.value === formData.track)?.labelKey || formData.track}`,
+                      `${t("admissions.summary.name")}: ${formData.fullName}`,
+                      `${t("admissions.fields.grade")}: ${formData.grade}`,
+                      `${t("admissions.fields.track")}: ${tracks.find(t => t.value === formData.track)?.labelKey || formData.track}`,
                     ].join("\n")
                   )}
                   target="_blank"

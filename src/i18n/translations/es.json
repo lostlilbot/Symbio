@@ -7,7 +7,7 @@
     "chatWithAdmissions": "Chatear con Admisiones"
   },
   "home": {
-    "tagline": "Inscripciones abiertas para 2026 — Grados 9 a 12",
+    "tagline": "Inscripciones abiertas para 2026–2027 — Grados 9 a 12",
     "heroTitle": "Symbio",
     "heroSubtitle": "El futuro de la educación secundaria autónoma impulsada por IA (Grados 9–12)",
     "heroDescription": "Experimenta instrucción multimodal de IA las 24 horas, aprendizaje basado en proyectos donde los estudiantes dedican más del 60% de su tiempo a construir sistemas reales de IA, supervisión ética rigurosa y un plan de estudios diseñado para el mundo que viene.",
@@ -22,6 +22,12 @@
     "clickForDetails": "Clic para más detalles",
     "labsTitle": "Laboratorios Prácticos",
     "outcomesTitle": "Resultados de Aprendizaje",
+    "gradeLabel": {
+      "9": "Grado 9",
+      "10": "Grado 10",
+      "11": "Grado 11",
+      "12": "Grado 12"
+    },
     "gradeTheme": {
       "9": "Fundamentos de la Inteligencia",
       "10": "Inteligencia Intermedia",

@@ -22,6 +22,8 @@ export default function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const whatsappHref = `https://wa.me/50495924662?text=${encodeURIComponent(t("whatsapp.defaultMessage"))}`;
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -50,7 +52,7 @@ export default function Navigation() {
           ))}
           <LanguageSwitcher />
           <a
-            href="https://wa.me/50495924662?text=Hello%20Symbio%20AI%20Academy%2C%20I%20am%20interested%20in%20learning%20more%20about%20admissions."
+            href={whatsappHref}
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-cyan-500 to-emerald-400 text-slate-950 font-semibold text-sm hover:shadow-[0_0_20px_rgba(34,211,238,0.4)] transition-all duration-300"
@@ -93,7 +95,7 @@ export default function Navigation() {
             </a>
           ))}
           <a
-            href="https://wa.me/50495924662?text=Hello%20Symbio%20AI%20Academy%2C%20I%20am%20interested%20in%20learning%20more%20about%20admissions."
+            href={whatsappHref}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 mt-3 w-full px-5 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-emerald-400 text-slate-950 font-semibold"

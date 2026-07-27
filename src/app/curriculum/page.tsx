@@ -129,7 +129,7 @@ export default function CurriculumPage() {
                 <div className="flex items-center gap-3 mb-6">
                   <div className="h-px flex-1 bg-gradient-to-r from-white/10 to-transparent" />
                   <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
-                    Grade {group.grade} — {group.theme}
+                    {t(`curriculum.gradeLabel.${group.grade}`)} — {group.theme}
                   </span>
                   <div className="h-px flex-1 bg-gradient-to-l from-white/10 to-transparent" />
                 </div>
@@ -162,7 +162,7 @@ export default function CurriculumPage() {
                                   {course.duration}
                                 </span>
                                 <span className="px-3 py-1 rounded-full text-xs font-medium text-slate-500 bg-slate-950/40 border border-white/5">
-                                  Grade {group.grade}
+                                  {t(`curriculum.gradeLabel.${group.grade}`)}
                                 </span>
                               </div>
                               <h3 className="text-lg font-semibold text-white mb-2 leading-snug">{t(`curriculum.courses.${course.id}.title`)}</h3>
@@ -189,7 +189,7 @@ export default function CurriculumPage() {
                             <div className="h-px bg-white/10" />
 
                             <div>
-                              <p className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Hands-On Labs</p>
+                              <p className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">{t("curriculum.sections.labs")}</p>
                               <div className="grid grid-cols-1 gap-3">
                                 {course.labs.map((lab) => (
                                   <div key={lab.name} className="rounded-xl border border-white/10 bg-white/5 p-5">
@@ -215,7 +215,7 @@ export default function CurriculumPage() {
                             </div>
 
                             <div>
-                              <p className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Learning Outcomes</p>
+                              <p className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">{t("curriculum.sections.outcomes")}</p>
                               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                 {course.outcomes.map((outcome) => (
                                   <li key={outcome} className="flex items-start gap-3 text-sm text-slate-300">
